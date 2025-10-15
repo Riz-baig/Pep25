@@ -1,4 +1,4 @@
-variable_global = "la variable de ámbito global"
+variable_global = "la variable de ámbito global, invocada en función interna"
 
 def funcion_externa():
     variable_no_local = "variable no local, es para usar en una función"
