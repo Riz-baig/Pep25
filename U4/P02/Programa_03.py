@@ -5,9 +5,11 @@
 #       Organización de las Naciones Unidas, debe devolver de y las.
 
 cadena = input("introduce la cadena: ")
+solucion = ""
+
+for i in cadena:
+        if(i.upper):
+            solucion += i
 
 
-lista = cadena.split(" ")
-print (lista)
-
-
+print(solucion)
