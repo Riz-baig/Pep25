@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="button-bar">
+      <button data-color="red">Rojo</button>
+      <button data-color="yellow">Amarillo</button>
+      <button data-color="green">Verde</button>
+      <button data-color="purple">Morado</button>
+    </div>
+    <script>
+      const buttonBar = document.querySelector(".button-bar");
+
+      function define(entrada) {
+        document.body.style.backgroundColor =
+          entrada.target.getAttribute("data-color");
+      }
+
+      buttonBar.addEventListener("click", define);
+    </script>
+  </body>
+</html>
