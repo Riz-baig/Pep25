@@ -10,7 +10,7 @@ cadena = "La mujer que esta a mi derecha esta loca"
 lista1 = cadena.split(" ")
 print(lista1)
 
-lista2 = cadena.partition(" ")
+lista2 = cadena.partition(" ") # preguntar a alvaro, como va esto
 print(lista2)
 
 cadena2 = "_".join(lista1)
